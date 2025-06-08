@@ -3,6 +3,15 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.container {
+  width: 90%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    font-size: 14px;
+  }
+}
 
 
 .navbar {
